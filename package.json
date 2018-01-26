@@ -5,12 +5,14 @@
     "Boilerplate for creating html examples with live sync via Browser Sync",
   "main": "gulpfile.js",
   "scripts": {
+    "deploy": "gh-pages -d app",
     "start": "gulp"
   },
   "author": "Jag Reehal",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.23.6",
+    "gh-pages": "^1.1.0",
     "gulp": "^3.9.1",
     "gulp-changed": "^3.2.0",
     "gulp-sass": "^3.1.0"
