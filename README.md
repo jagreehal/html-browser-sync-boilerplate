@@ -5,4 +5,4 @@ npm install
 npm start
 ```
 
-Create a files within app folder.
+Create a files within public folder.
